@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb20213b-797f-4aab-b540-f3c995602743" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Dima Hinev &lt;dimahinev31999@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YfFjmn3g2XfiXRQWwNFkmLn5rj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\react-app\src\components" />
+      <recent name="C:\Users\User\Documents\react-app\src\img" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb20213b-797f-4aab-b540-f3c995602743" name="Default Changelist" comment="" />
+      <created>1583325878770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583325878770</updated>
+      <workItem from="1583325881025" duration="919000" />
+      <workItem from="1583414590042" duration="31076000" />
+      <workItem from="1583727465783" duration="14000" />
+    </task>
+    <task id="LOCAL-00001" summary="13_lesson (new design -- black)">
+      <created>1583726809819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583726809821</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="13_lesson (new design -- black)" />
+    <option name="LAST_COMMIT_MESSAGE" value="13_lesson (new design -- black)" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583587238500">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1583587238500" />
+    <state x="413" y="175" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583499707416">
+      <screen x="76" y="0" width="1290" height="768" />
+    </state>
+    <state x="413" y="175" key="#com.intellij.fileTypes.FileTypeChooser/76.0.1290.768@76.0.1290.768" timestamp="1583499707416" />
+    <state x="194" y="0" key="CommitChangelistDialog2" timestamp="1583726808856">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="194" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583726808856" />
+    <state x="413" y="85" key="FileChooserDialogImpl" timestamp="1583677007975">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="413" y="85" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1583677007975" />
+    <state x="23" y="0" key="SettingsEditor" timestamp="1583727479318">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="23" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583727479318" />
+    <state x="98" y="0" key="SettingsEditor/76.0.1290.768@76.0.1290.768" timestamp="1583493907097" />
+    <state x="-80" y="0" width="807" height="768" key="find.popup" timestamp="1583606057708">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="-80" y="0" width="807" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1583606057708" />
+    <state x="0" y="0" width="762" height="768" key="find.popup/76.0.1290.768@76.0.1290.768" timestamp="1583493912136" />
+    <state x="230" y="169" key="run.anything.popup" timestamp="1583589299692">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="230" y="169" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1583589299692" />
+    <state x="293" y="169" key="run.anything.popup/76.0.1290.768@76.0.1290.768" timestamp="1583415429490" />
+  </component>
+</project>

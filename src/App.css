@@ -1,0 +1,21 @@
+/*Ligth - #6b2cd4*/
+/*Dark -  #451b8a*/
+/*dark background - #272727*/
+/*dark color - #00dbff | #32b1b7*/
+
+.App {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 4fr;
+    /*grid-template-rows: auto 100vh;*/
+    grid-template-areas: "h h" "n c";
+    font-size: 26px;
+    color: #00dbff;
+    background: #272727;
+
+}
+
+
+
+
+
