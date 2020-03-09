@@ -1,8 +1,8 @@
 import React from "react";
-import "./Navbar.css"
+import m from "./Navbar.module.css"
 const Navbar = () => {
     return (
-        <nav className='nav'>
+        <nav className={m.nav}>
             <div>
                 <a>Profile</a>
             </div>
@@ -12,7 +12,7 @@ const Navbar = () => {
             <div>
                 <a>Music</a>
             </div>
-            <div>
+            <div className={m.settings}>
                 <a>Settings</a>
             </div>
         </nav>
