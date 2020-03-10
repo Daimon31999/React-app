@@ -1,5 +1,5 @@
 import React from "react"
-import Profile_photo from "../../../img/profile_photo.jpg"
+import Profile_photo from "../../../../img/profile_photo.jpg"
 import m from './Avatar.module.css'
 
 const Avatar = () => {

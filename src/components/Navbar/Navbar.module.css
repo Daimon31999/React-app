@@ -7,6 +7,11 @@
     height: 100vh;
 }
 
+.nav a {
+    color: #00dbff;
+    text-decoration: none;
+}
+
 .settings {
     margin-top: 40px;
 }

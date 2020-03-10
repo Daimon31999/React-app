@@ -1,5 +1,5 @@
 import React from "react"
-import Header from "../../../img/react.png"
+import Header from "../../../../img/react.png"
 import m from './Image.module.css'
 
 const Image = () => {

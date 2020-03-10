@@ -25,12 +25,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Content/Settings" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\react-app\src\components\Content" />
       <recent name="C:\Users\User\Documents\react-app\src\components\Profile" />
       <recent name="C:\Users\User\Documents\react-app\src\components\Navbar" />
       <recent name="C:\Users\User\Documents\react-app\src\components\Header" />
@@ -55,7 +56,7 @@
       <updated>1583325878770</updated>
       <workItem from="1583325881025" duration="919000" />
       <workItem from="1583414590042" duration="31076000" />
-      <workItem from="1583727465783" duration="22837000" />
+      <workItem from="1583727465783" duration="26059000" />
     </task>
     <task id="LOCAL-00001" summary="13_lesson (new design -- black)">
       <created>1583726809819</created>
@@ -107,10 +108,14 @@
     </state>
     <state x="-80" y="0" width="807" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1583606057708" />
     <state x="0" y="0" width="762" height="768" key="find.popup/76.0.1290.768@76.0.1290.768" timestamp="1583493912136" />
-    <state x="230" y="169" key="run.anything.popup" timestamp="1583733786262">
+    <state x="230" y="169" key="run.anything.popup" timestamp="1583843425291">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="230" y="169" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1583733786262" />
+    <state x="230" y="169" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1583843425291" />
     <state x="293" y="169" key="run.anything.popup/76.0.1290.768@76.0.1290.768" timestamp="1583415429490" />
+    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup" timestamp="1583843740260">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1583843740260" />
   </component>
 </project>

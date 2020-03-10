@@ -4,16 +4,16 @@ const Navbar = () => {
     return (
         <nav className={m.nav}>
             <div>
-                <a>Profile</a>
+                <a href='/profile'>Profile</a>
             </div>
             <div>
-                <a>Messages</a>
+                <a href='/dialogs'>Messages</a>
             </div>
             <div>
-                <a>Music</a>
+                <a href='/music'>Music</a>
             </div>
             <div className={m.settings}>
-                <a>Settings</a>
+                <a href='/settings'>Settings</a>
             </div>
         </nav>
     )
