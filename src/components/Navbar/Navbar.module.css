@@ -2,7 +2,9 @@
     grid-area: n;
     background-color: #451b8a;
     padding: 10px;
-    color: #000;
+    /*color: #000;*/
+    color: #00dbff;
+    height: 100vh;
 }
 
 .settings {

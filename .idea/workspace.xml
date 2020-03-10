@@ -25,14 +25,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Dialogs" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\react-app\src\components\Profile" />
+      <recent name="C:\Users\User\Documents\react-app\src\components\Navbar" />
+      <recent name="C:\Users\User\Documents\react-app\src\components\Header" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\react-app\src\components" />
-      <recent name="C:\Users\User\Documents\react-app\src\img" />
+      <recent name="C:\Users\User\Documents\react-app\src\components\Dialogs" />
+      <recent name="C:\Users\User\Documents\react-app\src\components\Profile\Description" />
+      <recent name="C:\Users\User\Documents\react-app\src\components\Profile\Avatar" />
+      <recent name="C:\Users\User\Documents\react-app\src\components\Profile\Image" />
+      <recent name="C:\Users\User\Documents\react-app\src\components\Profile\MyPosts\Send" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -47,7 +55,7 @@
       <updated>1583325878770</updated>
       <workItem from="1583325881025" duration="919000" />
       <workItem from="1583414590042" duration="31076000" />
-      <workItem from="1583727465783" duration="2214000" />
+      <workItem from="1583727465783" duration="22837000" />
     </task>
     <task id="LOCAL-00001" summary="13_lesson (new design -- black)">
       <created>1583726809819</created>
@@ -77,6 +85,10 @@
       <screen x="76" y="0" width="1290" height="768" />
     </state>
     <state x="413" y="175" key="#com.intellij.fileTypes.FileTypeChooser/76.0.1290.768@76.0.1290.768" timestamp="1583499707416" />
+    <state x="701" y="62" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583731764748">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="701" y="62" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1583731764748" />
     <state x="194" y="0" key="CommitChangelistDialog2" timestamp="1583726808856">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -85,20 +97,20 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="85" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1583677007975" />
-    <state x="23" y="0" key="SettingsEditor" timestamp="1583727479318">
+    <state x="23" y="0" key="SettingsEditor" timestamp="1583735234659">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="23" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583727479318" />
+    <state x="23" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583735234659" />
     <state x="98" y="0" key="SettingsEditor/76.0.1290.768@76.0.1290.768" timestamp="1583493907097" />
     <state x="-80" y="0" width="807" height="768" key="find.popup" timestamp="1583606057708">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="-80" y="0" width="807" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1583606057708" />
     <state x="0" y="0" width="762" height="768" key="find.popup/76.0.1290.768@76.0.1290.768" timestamp="1583493912136" />
-    <state x="230" y="169" key="run.anything.popup" timestamp="1583589299692">
+    <state x="230" y="169" key="run.anything.popup" timestamp="1583733786262">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="230" y="169" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1583589299692" />
+    <state x="230" y="169" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1583733786262" />
     <state x="293" y="169" key="run.anything.popup/76.0.1290.768@76.0.1290.768" timestamp="1583415429490" />
   </component>
 </project>

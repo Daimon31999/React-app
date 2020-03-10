@@ -1,0 +1,4 @@
+.posts__title {
+    grid-area: title;
+    font-size: 32px;
+}

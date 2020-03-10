@@ -1,0 +1,14 @@
+.description {
+    grid-area: description;
+    display: grid;
+}
+
+.user_info {
+    display: grid;
+}
+
+.user_name {
+    font-size: 32px;
+    font-weight: bold;
+}
+
