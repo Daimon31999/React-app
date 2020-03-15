@@ -4,7 +4,6 @@
     padding: 10px;
     /*color: #000;*/
     color: #00dbff;
-    height: 100vh;
 }
 
 .nav a {
@@ -14,4 +13,8 @@
 
 .settings {
     margin-top: 40px;
+}
+
+.nav .active {
+    color: chartreuse;
 }

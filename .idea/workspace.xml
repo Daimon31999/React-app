@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb20213b-797f-4aab-b540-f3c995602743" name="Default Changelist" comment="" />
+    <list default="true" id="fb20213b-797f-4aab-b540-f3c995602743" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Dialogs/Dialogs.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Dialogs/Dialogs.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogItem/DialogItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogItem/DialogItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogsList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogsList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogsList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageItem/MessageItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageItem/MessageItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageItem/MessageItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageItem/MessageItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,32 +38,35 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YfFjmn3g2XfiXRQWwNFkmLn5rj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Content/Settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Content" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\react-app\src\components\Content" />
+      <recent name="C:\Users\User\Documents\react-app\src\components\Content\Messages\MessageList\MessageItem" />
+      <recent name="C:\Users\User\Documents\react-app\src\components\Content\Settings" />
+      <recent name="C:\Users\User\Documents\react-app\src\components\Content\Music" />
+      <recent name="C:\Users\User\Documents\react-app\src\components\Dialogs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Documents\react-app\src\components\Content" />
       <recent name="C:\Users\User\Documents\react-app\src\components\Profile" />
       <recent name="C:\Users\User\Documents\react-app\src\components\Navbar" />
       <recent name="C:\Users\User\Documents\react-app\src\components\Header" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\react-app\src\components\Dialogs" />
-      <recent name="C:\Users\User\Documents\react-app\src\components\Profile\Description" />
-      <recent name="C:\Users\User\Documents\react-app\src\components\Profile\Avatar" />
-      <recent name="C:\Users\User\Documents\react-app\src\components\Profile\Image" />
-      <recent name="C:\Users\User\Documents\react-app\src\components\Profile\MyPosts\Send" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -56,7 +81,8 @@
       <updated>1583325878770</updated>
       <workItem from="1583325881025" duration="919000" />
       <workItem from="1583414590042" duration="31076000" />
-      <workItem from="1583727465783" duration="26059000" />
+      <workItem from="1583727465783" duration="30303000" />
+      <workItem from="1584215816870" duration="6056000" />
     </task>
     <task id="LOCAL-00001" summary="13_lesson (new design -- black)">
       <created>1583726809819</created>
@@ -73,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="13_lesson (new design -- black)" />
     <option name="LAST_COMMIT_MESSAGE" value="13_lesson (new design -- black)" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
@@ -103,19 +130,23 @@
     </state>
     <state x="23" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583735234659" />
     <state x="98" y="0" key="SettingsEditor/76.0.1290.768@76.0.1290.768" timestamp="1583493907097" />
+    <state width="623" height="498" key="SwitcherDM" timestamp="1584216923678">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="623" height="498" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1584216923678" />
     <state x="-80" y="0" width="807" height="768" key="find.popup" timestamp="1583606057708">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="-80" y="0" width="807" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1583606057708" />
     <state x="0" y="0" width="762" height="768" key="find.popup/76.0.1290.768@76.0.1290.768" timestamp="1583493912136" />
-    <state x="230" y="169" key="run.anything.popup" timestamp="1583843425291">
+    <state x="230" y="169" key="run.anything.popup" timestamp="1584217749719">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="230" y="169" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1583843425291" />
+    <state x="230" y="169" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1584217749719" />
     <state x="293" y="169" key="run.anything.popup/76.0.1290.768@76.0.1290.768" timestamp="1583415429490" />
-    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup" timestamp="1583843740260">
+    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup" timestamp="1584258936016">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1583843740260" />
+    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1584258936016" />
   </component>
 </project>

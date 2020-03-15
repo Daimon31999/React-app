@@ -1,0 +1,6 @@
+.content {
+    grid-area: c;
+    display: grid;
+    color: #00dbff;
+    grid-gap: 20px;
+}

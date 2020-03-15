@@ -19,11 +19,4 @@ html {
     background-color: #272727;
 }
 
-.content {
-    grid-area: c;
-    color: red;
-    display: grid;
-    grid-gap: 20px;
-    /*padding: 10px;*/
-    grid-template-areas: "h h h h" "ava description . . " "title . . ." "input input input input" ". . . send" "posts posts posts posts";
-}
+

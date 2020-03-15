@@ -1,18 +1,22 @@
 import React from "react"
-import MyPosts from "./MyPosts/MyPosts";
-import Image from "./Image/Image";
-import Avatar from "./Avatar/Avatar";
-import Description from "./Description/Description";
+import m from "./Content.module.css"
+import Profile from "./Profile/Profile";
+import {Route} from "react-router-dom";
+import Dialogs from "./Messages/DialogsList/DialogsList";
+import Settings from "./Settings/Settings";
+import Music from "./Music/Music";
+import Messages from "./Messages/Messages";
 
-const Profile = () => {
+
+const Content = () => {
     return (
-        <React.Fragment>
-            <Image/>
-            <Avatar/>
-            <Description user_name='Dima Hinev'/>
-            <MyPosts/>
-        </React.Fragment>
+        <div className={m.content}>
+            <Route exact path='/profile' component={Profile}/>
+            <Route exact path='/messages' component={Messages}/>
+            <Route exact path='/settings' component={Settings}/>
+            <Route exact path='/music' component={Music}/>
+        </div>
     )
 }
 
-export default Profile
+export default Content
