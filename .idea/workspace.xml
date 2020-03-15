@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb20213b-797f-4aab-b540-f3c995602743" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/PostList/PostList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/PostList/PostList.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Структура_Проекта.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogItem/DialogItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogsList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/Post/Post.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/PostList/Post/PostItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/Post/Post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/PostList/Post/Post.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/apple_logo.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +39,20 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Content" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/PostList" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\react-app\src\components\Content\Profile\MyPosts\PostList" />
       <recent name="C:\Users\User\Documents\react-app\src\components\Content" />
       <recent name="C:\Users\User\Documents\react-app\src\components\Content\Messages\MessageList\MessageItem" />
       <recent name="C:\Users\User\Documents\react-app\src\components\Content\Settings" />
       <recent name="C:\Users\User\Documents\react-app\src\components\Content\Music" />
-      <recent name="C:\Users\User\Documents\react-app\src\components\Dialogs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\react-app\src\components\Content\Profile\MyPosts\PostList" />
       <recent name="C:\Users\User\Documents\react-app\src\components\Content" />
       <recent name="C:\Users\User\Documents\react-app\src\components\Profile" />
       <recent name="C:\Users\User\Documents\react-app\src\components\Navbar" />
@@ -65,7 +72,7 @@
       <workItem from="1583325881025" duration="919000" />
       <workItem from="1583414590042" duration="31076000" />
       <workItem from="1583727465783" duration="30303000" />
-      <workItem from="1584215816870" duration="7481000" />
+      <workItem from="1584215816870" duration="11972000" />
     </task>
     <task id="LOCAL-00001" summary="13_lesson (new design -- black)">
       <created>1583726809819</created>
@@ -113,10 +120,14 @@
     </state>
     <state x="23" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1583735234659" />
     <state x="98" y="0" key="SettingsEditor/76.0.1290.768@76.0.1290.768" timestamp="1583493907097" />
-    <state width="623" height="498" key="SwitcherDM" timestamp="1584216923678">
+    <state width="623" height="498" key="SwitcherDM" timestamp="1584265551967">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="623" height="498" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1584216923678" />
+    <state width="623" height="498" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1584265551967" />
+    <state x="439" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584262560492">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="439" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1584262560492" />
     <state x="-80" y="0" width="807" height="768" key="find.popup" timestamp="1583606057708">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -127,9 +138,9 @@
     </state>
     <state x="230" y="169" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1584217749719" />
     <state x="293" y="169" key="run.anything.popup/76.0.1290.768@76.0.1290.768" timestamp="1583415429490" />
-    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup" timestamp="1584261070305">
+    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup" timestamp="1584267867631">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1584261070305" />
+    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1584267867631" />
   </component>
 </project>

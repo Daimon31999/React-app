@@ -1,6 +1,6 @@
 import React from "react"
 import m from './MyPosts.module.css'
-import Post from "./Post/Post";
+import PostItem from "./PostList/Post/PostItem";
 import Title from "./Title/Title";
 import Input from "./Input/Input";
 import Send from "./Send/Send";
@@ -12,7 +12,7 @@ const MyPosts = () => {
     ]
 
     let posts = postsData.map(
-        e => <Post message={e.message} id={e.id}/>
+        e => <PostItem message={e.message} id={e.id}/>
     )
     return (
         <React.Fragment>

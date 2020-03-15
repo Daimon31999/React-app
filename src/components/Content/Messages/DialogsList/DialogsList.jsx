@@ -1,6 +1,6 @@
 import React from "react";
 import m from './DialogsList.module.css'
-import Dialog from "./DialogItem/DialogItem";
+import DialogItem from "./DialogItem/DialogItem";
 
 
 const Dialogs = () => {
@@ -12,7 +12,7 @@ const Dialogs = () => {
         {id: 5, name: 'Kiril'}
     ]
     let dialogs = dialogsArr.map(
-        dialog => <Dialog name={dialog.name} index={dialog.id}/>
+        dialog => <DialogItem name={dialog.name} index={dialog.id}/>
     )
     return (
         <div className={m.dialogs_list}>
