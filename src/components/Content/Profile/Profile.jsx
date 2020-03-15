@@ -1,17 +1,17 @@
 import React from "react"
-import MyPosts from "./MyPosts/MyPosts";
-import Image from "./Image/Image";
-import Avatar from "./Avatar/Avatar";
-import Description from "./Description/Description";
+import MyPosts from "./MyPosts/MyPosts"
+import Image from "./Image/Image"
+import Avatar from "./Avatar/Avatar"
+import Description from "./Description/Description"
 import m from './Profile.module.css'
 
-const Profile = () => {
+const Profile = (props) => {
     return (
         <div className={m.content}>
             <Image/>
             <Avatar/>
             <Description user_name='Dima Hinev'/>
-            <MyPosts/>
+            <MyPosts posts={props.posts}/>
         </div>
 
     )

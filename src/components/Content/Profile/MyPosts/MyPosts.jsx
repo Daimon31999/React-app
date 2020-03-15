@@ -4,23 +4,16 @@ import PostItem from "./PostList/Post/PostItem";
 import Title from "./Title/Title";
 import Input from "./Input/Input";
 import Send from "./Send/Send";
+import PostList from './PostList/PostList'
 
-const MyPosts = () => {
-    let postsData = [
-        {id: 1, message: 'Hello World!!!'},
-        {id: 2, message: 'I am Dima Hinev'}
-    ]
-
-    let posts = postsData.map(
-        e => <PostItem message={e.message} id={e.id}/>
-    )
+const MyPosts = (props) => {
     return (
         <React.Fragment>
             <Title/>
             <Input/>
             <Send/>
             <div className={m.posts}>
-                {posts}
+               <PostList content={props.posts}/>
             </div>
         </React.Fragment>
     )

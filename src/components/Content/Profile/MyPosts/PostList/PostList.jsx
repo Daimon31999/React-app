@@ -1,14 +1,9 @@
 import React from "react"
 import m from './PostList.module.css'
-import PostItem from "./Post/PostItem";
+import PostItem from "./Post/PostItem"
 
-const PostList = () => {
-    let postsData = [
-        {id: 1, message: 'Hello World!!!'},
-        {id: 2, message: 'I am Dima Hinev'}
-    ]
-
-    let posts = postsData.map(
+const PostList = (props) => {
+    let posts = props.content.map(
         e => <PostItem message={e.message} id={e.id}/>
     )
     return (

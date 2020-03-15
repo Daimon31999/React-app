@@ -3,11 +3,13 @@ import m from './Messages.module.css'
 import {NavLink} from "react-router-dom";
 import Dialogs from "./DialogsList/DialogsList";
 import MessageList from "./MessageList/MessageList";
-const Messages = () => {
+import DialogItem from "./DialogsList/DialogItem/DialogItem";
+import MessageItem from "./MessageList/MessageItem/MessageItem";
+const Messages = (props) => {
     return (
         <div className={m.messages}>
-            <Dialogs/>
-            <MessageList/>
+            <Dialogs content={props.dialogs}/>
+            <MessageList content={props.messages}/>
         </div>
     )
 }
