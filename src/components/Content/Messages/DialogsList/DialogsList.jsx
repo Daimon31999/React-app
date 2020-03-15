@@ -11,13 +11,12 @@ const Dialogs = () => {
         {id: 4, name: 'Danik'},
         {id: 5, name: 'Kiril'}
     ]
+    let dialogs = dialogsArr.map(
+        dialog => <Dialog name={dialog.name} index={dialog.id}/>
+    )
     return (
         <div className={m.dialogs_list}>
-            <Dialog name={dialogsArr[0].name} index={dialogsArr[0].id}/>
-            <Dialog name={dialogsArr[1].name} index={dialogsArr[1].id}/>
-            <Dialog name={dialogsArr[2].name} index={dialogsArr[2].id}/>
-            <Dialog name={dialogsArr[3].name} index={dialogsArr[3].id}/>
-            <Dialog name={dialogsArr[4].name} index={dialogsArr[4].id}/>
+            {dialogs}
         </div>
     )
 }

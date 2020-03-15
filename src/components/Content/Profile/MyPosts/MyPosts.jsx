@@ -6,18 +6,21 @@ import Input from "./Input/Input";
 import Send from "./Send/Send";
 
 const MyPosts = () => {
-    let posts = [
-        {id: 1, message:'Hello World!!!'},
-        {id: 2, message:'I am Dima Hinev'}
+    let postsData = [
+        {id: 1, message: 'Hello World!!!'},
+        {id: 2, message: 'I am Dima Hinev'}
     ]
+
+    let posts = postsData.map(
+        e => <Post message={e.message} id={e.id}/>
+    )
     return (
         <React.Fragment>
             <Title/>
             <Input/>
             <Send/>
             <div className={m.posts}>
-                    <Post message={posts[0].message} id={posts[0].id}/>
-                    <Post message={posts[1].message} id={posts[1].id}/>
+                {posts}
             </div>
         </React.Fragment>
     )
