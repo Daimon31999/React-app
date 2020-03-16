@@ -1,5 +1,11 @@
 .content {
     display: grid;
-    grid-template-areas: "h h h h" "ava description . . " "title . . ." "input input input input" ". . . send" "posts posts posts posts";
+    grid-template-areas: "h h h h"
+                        "ava description . . "
+                        "title . . ."
+                        "input input input ."
+                        ". . send ."
+                        "posts posts posts posts";
+    grid-template-rows:  auto auto 1fr 4fr auto auto;
     grid-gap: 20px;
 }

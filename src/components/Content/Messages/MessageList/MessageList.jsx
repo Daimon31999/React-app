@@ -7,7 +7,7 @@ const MessageList = (props) => {
         element => <MessageItem message={element.message} id={element.id}/>
     )
     return (
-        <div className={m.messages}>
+        <div className={m.messages_list}>
             {messages}
         </div>
     )

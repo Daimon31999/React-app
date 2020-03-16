@@ -1,4 +1,18 @@
 .messages {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+            "dialogs_list messages_list"
+            "dialogs_list input"
+            "dialogs_list send";
+    margin: 0 20px;
+}
+
+.send_wrapp {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.send {
+    margin-top: 30px;
 }

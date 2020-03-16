@@ -1,4 +1,5 @@
 .dialogs_list {
     display: grid;
     grid-gap: 20px;
+    grid-area: dialogs_list;
 }

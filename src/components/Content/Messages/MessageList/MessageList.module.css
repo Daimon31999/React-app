@@ -1,7 +1,3 @@
-.messages {
-
-}
-
-.message {
-
+.messages_list {
+    grid-area: messages_list;
 }

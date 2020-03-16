@@ -1,45 +1,22 @@
-
-.posts__title {
-    grid-area: title;
-    font-size: 32px;
-}
-
-.posts__input {
+.textArea {
     grid-area: input;
+    padding: 30px 40px 30px 0;
 }
 
-.posts__input > input {
-    /*background: aliceblue;*/
+.textArea > textarea {
     border: none;
     border-radius: 12px;
-    height: 40px;
-    width: 99%;
+    height: 100%;
+    width: 100%;
     background-color: #00dbff;
-    font-size: 18px;
+    font-size: 20px;
     color: #525252;
+    padding: 20px;
 }
 
-::placeholder {
+textarea::placeholder {
     color: #525252;
     padding: 10px;
     font-size: 18px;
 }
 
-.posts__send {
-    grid-area: send;
-}
-
-.posts__send > button {
-    /*background-color: aliceblue;*/
-    border: none;
-    border-radius: 15px;
-    padding: 10px 30px;
-    margin-right: 6px;
-    font-size: 18px;
-    color: #525252;
-    background: #00dbff;
-}
-
-.posts__list {
-    grid-area: posts_list;
-}
