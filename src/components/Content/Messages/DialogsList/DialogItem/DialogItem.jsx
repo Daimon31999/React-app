@@ -1,13 +1,16 @@
-import m from "../DialogsList.module.css";
-import {NavLink} from "react-router-dom";
-import React from "react";
+import m from "./DialogItem.module.css"
+import {NavLink} from "react-router-dom"
+import React from "react"
+import Profile_photo from "../../../../../img/profile_photo.jpg"
+
 
 const DialogItem = (props) => {
     let path = `/messages/${props.index}`
     return (
-        <div className={m.dialog}>
-            <NavLink to={path}>{props.name}</NavLink>
-        </div>
+        <NavLink className={m.dialog} to={path}>
+            <img src={Profile_photo} alt=""/>
+            {props.name}
+        </NavLink>
     )
 }
 

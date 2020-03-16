@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb20213b-797f-4aab-b540-f3c995602743" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/redux/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogsList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogsList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/Messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/Messages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/PostList/PostList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/PostList/PostList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Структура_Проекта.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Структура_Проекта.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Структура_Проекта.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/Структура_Проекта.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogItem/DialogItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogItem/DialogItem.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogItem/DialogItem.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogsList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogsList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/Messages.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/Messages.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +71,7 @@
       <workItem from="1583414590042" duration="31076000" />
       <workItem from="1583727465783" duration="30303000" />
       <workItem from="1584215816870" duration="15835000" />
+      <workItem from="1584347357200" duration="2933000" />
     </task>
     <task id="LOCAL-00001" summary="13_lesson (new design -- black)">
       <created>1583726809819</created>
@@ -140,9 +137,9 @@
     </state>
     <state x="230" y="169" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1584293089627" />
     <state x="293" y="169" key="run.anything.popup/76.0.1290.768@76.0.1290.768" timestamp="1583415429490" />
-    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup" timestamp="1584297566031">
+    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup" timestamp="1584350287115">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1584297566031" />
+    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1584350287115" />
   </component>
 </project>
