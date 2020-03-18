@@ -2,10 +2,10 @@ import React from "react"
 import m from './Send.module.css'
 import {inputRef} from '../Input/Input'
 
-const Send = () => {
+const Send = (props) => {
     let addPost = () => {
-        let text = inputRef.current.value
-        alert(text)
+        props.addPost()
+        inputRef.current.value = ''
     }
     return (
         <div className={m.posts__send}>

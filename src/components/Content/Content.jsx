@@ -10,7 +10,7 @@ import Messages from "./Messages/Messages"
 const Content = (props) => {
     return (
         <div className={m.content}>
-            <Route exact path='/profile' render={() => <Profile posts={props.posts}/>}/>
+            <Route exact path='/profile' render={() => <Profile posts={props.posts} addPost={props.addPost} updateNewPostText={props.updateNewPostText}/>}/>
             <Route exact path='/messages' render={() => <Messages dialogs={props.dialogs} messages={props.messages}/>}/>
             <Route exact path='/settings' render={() => <Settings/>}/>
             <Route exact path='/music' render={() => <Music/>}/>

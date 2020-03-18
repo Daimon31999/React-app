@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb20213b-797f-4aab-b540-f3c995602743" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogsList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/DialogsList/DialogsList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/MessageList/MessageList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/Messages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/Messages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Messages/Messages.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Messages/Messages.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Content.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Content.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/Input/Input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/Input/Input.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/Input/Input.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/Input/Input.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/Send/Send.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/Send/Send.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/Send/Send.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/Send/Send.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/Profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/Profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Content/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Content/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Content/Profile/MyPosts/PostList" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -60,6 +61,23 @@
       <recent name="C:\Users\User\Documents\react-app\src\components\Header" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="localhost:3000" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -74,7 +92,9 @@
       <workItem from="1583414590042" duration="31076000" />
       <workItem from="1583727465783" duration="30303000" />
       <workItem from="1584215816870" duration="15835000" />
-      <workItem from="1584347357200" duration="9533000" />
+      <workItem from="1584347357200" duration="13380000" />
+      <workItem from="1584514124424" duration="2713000" />
+      <workItem from="1584517879207" duration="3555000" />
     </task>
     <task id="LOCAL-00001" summary="13_lesson (new design -- black)">
       <created>1583726809819</created>
@@ -97,13 +117,14 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="137" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583587238500">
+    <state x="137" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584515362170">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="137" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1583587238500" />
-    <state x="413" y="175" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583499707416">
-      <screen x="76" y="0" width="1290" height="768" />
+    <state x="137" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1584515362170" />
+    <state x="357" y="175" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584415989480">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state x="357" y="175" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1584415989480" />
     <state x="413" y="175" key="#com.intellij.fileTypes.FileTypeChooser/76.0.1290.768@76.0.1290.768" timestamp="1583499707416" />
     <state x="701" y="62" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583731764748">
       <screen x="0" y="0" width="1366" height="768" />
@@ -113,10 +134,78 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="194" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583726808856" />
+    <state width="530" height="546" key="DebuggerActiveHint" timestamp="1584515437083">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="530" height="546" key="DebuggerActiveHint/0.0.1366.768@0.0.1366.768" timestamp="1584515437083" />
     <state x="413" y="85" key="FileChooserDialogImpl" timestamp="1583677007975">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="85" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1583677007975" />
+    <state width="1339" height="231" key="GridCell.Tab.0.bottom" timestamp="1584559719522">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584559719522" />
+    <state width="1339" height="231" key="GridCell.Tab.0.center" timestamp="1584559719521">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584559719521" />
+    <state width="1339" height="231" key="GridCell.Tab.0.left" timestamp="1584559719521">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584559719521" />
+    <state width="1339" height="231" key="GridCell.Tab.0.right" timestamp="1584559719522">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584559719522" />
+    <state width="1339" height="231" key="GridCell.Tab.1.bottom" timestamp="1584559728605">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584559728605" />
+    <state width="1339" height="231" key="GridCell.Tab.1.center" timestamp="1584559728603">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1584559728603" />
+    <state width="1339" height="231" key="GridCell.Tab.1.left" timestamp="1584559728603">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1584559728603" />
+    <state width="1339" height="231" key="GridCell.Tab.1.right" timestamp="1584559728603">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1584559728603" />
+    <state width="1339" height="231" key="GridCell.Tab.2.bottom" timestamp="1584559719188">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.2.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584559719188" />
+    <state width="1339" height="231" key="GridCell.Tab.2.center" timestamp="1584559719187">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.2.center/0.0.1366.768@0.0.1366.768" timestamp="1584559719187" />
+    <state width="1339" height="231" key="GridCell.Tab.2.left" timestamp="1584559719187">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.2.left/0.0.1366.768@0.0.1366.768" timestamp="1584559719187" />
+    <state width="1339" height="231" key="GridCell.Tab.2.right" timestamp="1584559719187">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.2.right/0.0.1366.768@0.0.1366.768" timestamp="1584559719187" />
+    <state width="1339" height="231" key="GridCell.Tab.3.bottom" timestamp="1584559719189">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.3.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584559719189" />
+    <state width="1339" height="231" key="GridCell.Tab.3.center" timestamp="1584559719188">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.3.center/0.0.1366.768@0.0.1366.768" timestamp="1584559719188" />
+    <state width="1339" height="231" key="GridCell.Tab.3.left" timestamp="1584559719188">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.3.left/0.0.1366.768@0.0.1366.768" timestamp="1584559719188" />
+    <state width="1339" height="231" key="GridCell.Tab.3.right" timestamp="1584559719188">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1339" height="231" key="GridCell.Tab.3.right/0.0.1366.768@0.0.1366.768" timestamp="1584559719188" />
     <state x="23" y="0" key="SettingsEditor" timestamp="1584294058044">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -130,19 +219,35 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="439" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1584361169240" />
-    <state x="-80" y="0" width="807" height="768" key="find.popup" timestamp="1583606057708">
+    <state x="137" y="62" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584517167110">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="-80" y="0" width="807" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1583606057708" />
+    <state x="137" y="62" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.768@0.0.1366.768" timestamp="1584517167110" />
+    <state x="-80" y="0" width="807" height="768" key="find.popup" timestamp="1584516812972">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="-80" y="0" width="807" height="768" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1584516812972" />
     <state x="0" y="0" width="762" height="768" key="find.popup/76.0.1290.768@76.0.1290.768" timestamp="1583493912136" />
     <state x="230" y="169" key="run.anything.popup" timestamp="1584293089627">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="230" y="169" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1584293089627" />
     <state x="293" y="169" key="run.anything.popup/76.0.1290.768@76.0.1290.768" timestamp="1583415429490" />
-    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup" timestamp="1584361124074">
+    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup" timestamp="1584558129985">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1584361124074" />
+    <state x="262" y="0" width="840" height="766" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1584558129985" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/redux/state.js</url>
+          <line>33</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

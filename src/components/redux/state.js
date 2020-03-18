@@ -1,9 +1,12 @@
+import {reRender} from '../../render'
+
 let state = {
     profilePage: {
         posts: [
             {id: 1, message: 'Hello World!!!'},
             {id: 2, message: 'I am Dima Hinev'}
-        ]
+        ],
+        newPostText: ''
     },
     messagesPage: {
         dialogs: [
@@ -19,6 +22,17 @@ let state = {
             {id: 3, message: 'What is your name?'}
         ]
     }
+}
+
+export let addPost = () => {
+    let post = {id: 5, message: state.profilePage.newPostText}
+    state.profilePage.posts.push(post)
+    reRender(state)
+}
+
+export let updateNewPostText = (message) => {
+    state.profilePage.newPostText = message
+    reRender(state)
 }
 
 export default state

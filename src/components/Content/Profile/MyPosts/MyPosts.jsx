@@ -10,8 +10,8 @@ const MyPosts = (props) => {
     return (
         <React.Fragment>
             <Title/>
-            <Input/>
-            <Send/>
+            <Input addPost={props.addPost} updateNewPostText={props.updateNewPostText}/>
+            <Send addPost={props.addPost}/>
             <div className={m.posts}>
                <PostList content={props.posts}/>
             </div>

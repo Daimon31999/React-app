@@ -13,7 +13,10 @@ const App = (props) => {
                 <Navbar/>
                 <Content dialogs={props.state.messagesPage.dialogs}
                          messages={props.state.messagesPage.messages}
-                         posts={props.state.profilePage.posts}/>
+                         posts={props.state.profilePage.posts}
+                         addPost={props.addPost}
+                         updateNewPostText={props.updateNewPostText}
+                />
             </div>
         </BrowserRouter>
     )

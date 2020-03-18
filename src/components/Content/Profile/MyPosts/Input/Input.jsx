@@ -2,11 +2,15 @@ import React from "react"
 import m from './Input.module.css'
 
 export let inputRef = React.createRef()
-const Input = () => {
+const Input = (props) => {
     return (
         <div className={m.textArea}>
-            {/*<input ref={inputRef} type="text" id="new_post" name="new_post" placeholder='your news...'/>*/}
-            <textarea ref={inputRef} type="text" id="new_post" name="new_post" placeholder='your news...'/>
+            <textarea ref={inputRef}
+                      id="new_post"
+                      name="new_post"
+                      placeholder='your news...'
+                      onChange={() => props.updateNewPostText(inputRef.current.value)}
+            />
         </div>
     )
 }

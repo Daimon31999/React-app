@@ -11,7 +11,7 @@ const Profile = (props) => {
             <Image/>
             <Avatar/>
             <Description user_name='Dima Hinev'/>
-            <MyPosts posts={props.posts}/>
+            <MyPosts posts={props.posts} addPost={props.addPost} updateNewPostText={props.updateNewPostText}/>
         </div>
 
     )
