@@ -1,3 +1,8 @@
+# [Click to try on github pages](https://daimon31999.github.io/react.js-social-network/)
+
+[![react.js-social-network](./images/screenshot.png)](https://daimon31999.github.io/react.js-social-network/)
+
+
 # Installation
 * `npm install -g npm-install-missing`
 * `npm-install-missing`
